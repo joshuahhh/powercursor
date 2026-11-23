@@ -1,0 +1,3175 @@
+{
+ "_note": "Stage-space data per frame of the block sprite (frames 2..31). matrix=[a,b,c,d,tx,ty] (x'=a*x+c*y+tx, y'=b*x+d*y+ty). hoep* hit area = local square -34..34. pushgutter local box 0..200 x 0..25, pushes along local +x. Hill/Hole local box 0..100. wall/sand/topface SVG registration: see reference/specs/block.md.",
+ "frames": {
+  "2": {
+   "hoepback": {
+    "matrix": [
+     1.465713,
+     -0.953873,
+     0.462448,
+     0.612091,
+     66.5,
+     57.85
+    ],
+    "corners": [
+     [
+      0.9,
+      69.5
+     ],
+     [
+      100.6,
+      4.6
+     ],
+     [
+      132.1,
+      46.2
+     ],
+     [
+      32.4,
+      111.1
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.947189,
+     -0.616516,
+     0.192291,
+     0.295425,
+     108.8,
+     74.1
+    ],
+    "corners": [
+     [
+      70.1,
+      85.0
+     ],
+     [
+      134.5,
+      43.1
+     ],
+     [
+      147.5,
+      63.2
+     ],
+     [
+      83.1,
+      105.1
+     ]
+    ]
+   },
+   "gravity": -1,
+   "sandpatch": {
+    "matrix": [
+     0.684265,
+     0.0,
+     0.0,
+     0.684265,
+     127.05,
+     97.15
+    ],
+    "params": {
+     "strengthStickyness": 3,
+     "strengthRoughness": 0,
+     "directionDependency": "None",
+     "dirDepAngle": 0
+    }
+   },
+   "hill": {
+    "matrix": [
+     1.003174,
+     0.0,
+     0.0,
+     1.003174,
+     34.1,
+     11.15
+    ],
+    "centre": [
+     84.3,
+     61.3
+    ]
+   },
+   "hintArrow": true,
+   "wall": "wall-02.svg",
+   "sand": "sand-02.svg",
+   "topface": "topface-02.svg",
+   "block": "block-02.png"
+  },
+  "3": {
+   "hoepback": {
+    "matrix": [
+     1.415344,
+     -0.921112,
+     0.474365,
+     0.63887,
+     70.15,
+     57.25
+    ],
+    "corners": [
+     [
+      5.9,
+      66.8
+     ],
+     [
+      102.1,
+      4.2
+     ],
+     [
+      134.4,
+      47.7
+     ],
+     [
+      38.2,
+      110.3
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.946976,
+     -0.616394,
+     0.213898,
+     0.328613,
+     111.6,
+     76.0
+    ],
+    "corners": [
+     [
+      72.1,
+      85.8
+     ],
+     [
+      136.5,
+      43.9
+     ],
+     [
+      151.1,
+      66.2
+     ],
+     [
+      86.7,
+      108.1
+     ]
+    ]
+   },
+   "gravity": -1,
+   "hintArrow": false,
+   "pushgutter": {
+    "matrix": [
+     -0.447754,
+     -0.243759,
+     1.148743,
+     -2.110596,
+     115.3,
+     115.85
+    ],
+    "alpha": 0.5,
+    "x": 115.3,
+    "y": 115.85,
+    "scaleX": 0.5098,
+    "scaleY": 2.403,
+    "rotation": -151.44,
+    "skewY_minus_X": -0.01,
+    "corners": [
+     [
+      115.3,
+      115.8
+     ],
+     [
+      25.7,
+      67.1
+     ],
+     [
+      54.5,
+      14.3
+     ],
+     [
+      144.0,
+      63.1
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 0.0,
+     "pushStrength": 1.0,
+     "arrowStyle": "Still",
+     "graphicsStyle": "Rectangle",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-03.svg",
+   "sand": "sand-03.svg",
+   "topface": "topface-03.svg",
+   "block": "block-03.png"
+  },
+  "4": {
+   "hoepback": {
+    "matrix": [
+     1.365036,
+     -0.888336,
+     0.485855,
+     0.665878,
+     74.0,
+     56.75
+    ],
+    "corners": [
+     [
+      11.1,
+      64.3
+     ],
+     [
+      103.9,
+      3.9
+     ],
+     [
+      136.9,
+      49.2
+     ],
+     [
+      44.1,
+      109.6
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.946732,
+     -0.616272,
+     0.235489,
+     0.361755,
+     114.5,
+     78.1
+    ],
+    "corners": [
+     [
+      74.3,
+      86.8
+     ],
+     [
+      138.7,
+      44.8
+     ],
+     [
+      154.7,
+      69.4
+     ],
+     [
+      90.3,
+      111.4
+     ]
+    ]
+   },
+   "gravity": -1,
+   "hintArrow": false,
+   "pushgutter": {
+    "matrix": [
+     -0.438736,
+     -0.261887,
+     1.278763,
+     -2.142227,
+     117.05,
+     119.25
+    ],
+    "alpha": 0.5,
+    "x": 117.05,
+    "y": 119.25,
+    "scaleX": 0.511,
+    "scaleY": 2.4949,
+    "rotation": -149.17,
+    "skewY_minus_X": 0.0,
+    "corners": [
+     [
+      117.0,
+      119.2
+     ],
+     [
+      29.3,
+      66.9
+     ],
+     [
+      61.3,
+      13.3
+     ],
+     [
+      149.0,
+      65.7
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 0.0,
+     "pushStrength": 1.0,
+     "arrowStyle": "Still",
+     "graphicsStyle": "Rectangle",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-04.svg",
+   "sand": "sand-04.svg",
+   "topface": "topface-04.svg",
+   "block": "block-04.png"
+  },
+  "5": {
+   "hoepback": {
+    "matrix": [
+     1.314667,
+     -0.855591,
+     0.499237,
+     0.691483,
+     77.7,
+     56.15
+    ],
+    "corners": [
+     [
+      16.0,
+      61.7
+     ],
+     [
+      105.4,
+      3.5
+     ],
+     [
+      139.4,
+      50.6
+     ],
+     [
+      50.0,
+      108.8
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.946442,
+     -0.61615,
+     0.257111,
+     0.394928,
+     117.35,
+     80.15
+    ],
+    "corners": [
+     [
+      76.4,
+      87.7
+     ],
+     [
+      140.8,
+      45.8
+     ],
+     [
+      158.3,
+      72.6
+     ],
+     [
+      93.9,
+      114.5
+     ]
+    ]
+   },
+   "gravity": -1,
+   "hintArrow": false,
+   "pushgutter": {
+    "matrix": [
+     -0.429535,
+     -0.280121,
+     1.41481,
+     -2.169556,
+     118.7,
+     122.45
+    ],
+    "alpha": 0.5,
+    "x": 118.7,
+    "y": 122.45,
+    "scaleX": 0.5128,
+    "scaleY": 2.5901,
+    "rotation": -146.89,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      118.7,
+      122.5
+     ],
+     [
+      32.8,
+      66.4
+     ],
+     [
+      68.2,
+      12.2
+     ],
+     [
+      154.1,
+      68.2
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 0.0,
+     "pushStrength": 1.0,
+     "arrowStyle": "Still",
+     "graphicsStyle": "Rectangle",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-05.svg",
+   "sand": "sand-05.svg",
+   "topface": "topface-05.svg",
+   "block": "block-05.png"
+  },
+  "6": {
+   "hoepback": {
+    "matrix": [
+     1.264343,
+     -0.82283,
+     0.51001,
+     0.718918,
+     81.45,
+     55.6
+    ],
+    "corners": [
+     [
+      21.1,
+      59.1
+     ],
+     [
+      107.1,
+      3.2
+     ],
+     [
+      141.8,
+      52.1
+     ],
+     [
+      55.8,
+      108.0
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.946182,
+     -0.616058,
+     0.278717,
+     0.428101,
+     120.2,
+     82.1
+    ],
+    "corners": [
+     [
+      78.6,
+      88.5
+     ],
+     [
+      142.9,
+      46.6
+     ],
+     [
+      161.8,
+      75.7
+     ],
+     [
+      97.5,
+      117.6
+     ]
+    ]
+   },
+   "gravity": -1,
+   "hintArrow": false,
+   "pushgutter": {
+    "matrix": [
+     -0.418594,
+     -0.299408,
+     1.562241,
+     -2.184158,
+     120.05,
+     125.65
+    ],
+    "alpha": 0.5,
+    "x": 120.05,
+    "y": 125.65,
+    "scaleX": 0.5147,
+    "scaleY": 2.6854,
+    "rotation": -144.42,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      120.0,
+      125.7
+     ],
+     [
+      36.3,
+      65.8
+     ],
+     [
+      75.4,
+      11.2
+     ],
+     [
+      159.1,
+      71.0
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 0.0,
+     "pushStrength": 1.0,
+     "arrowStyle": "Still",
+     "graphicsStyle": "Rectangle",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-06.svg",
+   "sand": "sand-06.svg",
+   "topface": "topface-06.svg",
+   "block": "block-06.png"
+  },
+  "7": {
+   "hoepback": {
+    "matrix": [
+     1.214004,
+     -0.790054,
+     0.522797,
+     0.744873,
+     85.05,
+     55.1
+    ],
+    "corners": [
+     [
+      26.0,
+      56.6
+     ],
+     [
+      108.6,
+      2.9
+     ],
+     [
+      144.1,
+      53.6
+     ],
+     [
+      61.5,
+      107.3
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.947495,
+     -0.616623,
+     0.300674,
+     0.462006,
+     123.0,
+     84.1
+    ],
+    "corners": [
+     [
+      80.6,
+      89.4
+     ],
+     [
+      145.0,
+      47.4
+     ],
+     [
+      165.4,
+      78.8
+     ],
+     [
+      101.0,
+      120.8
+     ]
+    ]
+   },
+   "gravity": -1,
+   "hintArrow": false,
+   "pushgutter": {
+    "matrix": [
+     -0.40834,
+     -0.317612,
+     1.709824,
+     -2.198517,
+     121.55,
+     128.6
+    ],
+    "alpha": 0.5,
+    "x": 121.55,
+    "y": 128.6,
+    "scaleX": 0.5173,
+    "scaleY": 2.7851,
+    "rotation": -142.12,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      121.5,
+      128.6
+     ],
+     [
+      39.9,
+      65.1
+     ],
+     [
+      82.6,
+      10.1
+     ],
+     [
+      164.3,
+      73.6
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-07.svg",
+   "sand": "sand-07.svg",
+   "topface": "topface-07.svg",
+   "block": "block-07.png"
+  },
+  "8": {
+   "hoepback": {
+    "matrix": [
+     1.16362,
+     -0.757294,
+     0.532791,
+     0.772736,
+     88.85,
+     54.55
+    ],
+    "corners": [
+     [
+      31.2,
+      54.0
+     ],
+     [
+      110.3,
+      2.5
+     ],
+     [
+      146.5,
+      55.1
+     ],
+     [
+      67.4,
+      106.6
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.946228,
+     -0.616058,
+     0.307724,
+     0.472641,
+     126.0,
+     86.55
+    ],
+    "corners": [
+     [
+      83.4,
+      91.4
+     ],
+     [
+      147.7,
+      49.5
+     ],
+     [
+      168.6,
+      81.7
+     ],
+     [
+      104.3,
+      123.6
+     ]
+    ]
+   },
+   "gravity": -1,
+   "hintArrow": false,
+   "pushgutter": {
+    "matrix": [
+     -0.400406,
+     -0.328644,
+     1.805283,
+     -2.199631,
+     122.4,
+     130.4
+    ],
+    "alpha": 0.5,
+    "x": 122.4,
+    "y": 130.4,
+    "scaleX": 0.518,
+    "scaleY": 2.8456,
+    "rotation": -140.62,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      122.4,
+      130.4
+     ],
+     [
+      42.3,
+      64.7
+     ],
+     [
+      87.5,
+      9.7
+     ],
+     [
+      167.5,
+      75.4
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-08.svg",
+   "sand": "sand-08.svg",
+   "topface": "topface-08.svg",
+   "block": "block-08.png"
+  },
+  "9": {
+   "hoepback": {
+    "matrix": [
+     1.113296,
+     -0.724548,
+     0.542389,
+     0.800812,
+     92.6,
+     54.05
+    ],
+    "corners": [
+     [
+      36.3,
+      51.5
+     ],
+     [
+      112.0,
+      2.2
+     ],
+     [
+      148.9,
+      56.6
+     ],
+     [
+      73.2,
+      105.9
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.946533,
+     -0.616196,
+     0.315124,
+     0.484055,
+     129.0,
+     89.1
+    ],
+    "corners": [
+     [
+      86.1,
+      93.6
+     ],
+     [
+      150.5,
+      51.7
+     ],
+     [
+      171.9,
+      84.6
+     ],
+     [
+      107.5,
+      126.5
+     ]
+    ]
+   },
+   "gravity": -1,
+   "hintArrow": false,
+   "pushgutter": {
+    "matrix": [
+     -0.391556,
+     -0.341476,
+     1.91301,
+     -2.193649,
+     123.0,
+     132.3
+    ],
+    "alpha": 0.5,
+    "x": 123.0,
+    "y": 132.3,
+    "scaleX": 0.5195,
+    "scaleY": 2.9106,
+    "rotation": -138.91,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      123.0,
+      132.3
+     ],
+     [
+      44.7,
+      64.0
+     ],
+     [
+      92.5,
+      9.2
+     ],
+     [
+      170.8,
+      77.5
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-09.svg",
+   "sand": "sand-09.svg",
+   "topface": "topface-09.svg",
+   "block": "block-09.png"
+  },
+  "10": {
+   "hoepback": {
+    "matrix": [
+     1.062973,
+     -0.691788,
+     0.554245,
+     0.827286,
+     96.3,
+     53.45
+    ],
+    "corners": [
+     [
+      41.3,
+      48.8
+     ],
+     [
+      113.6,
+      1.8
+     ],
+     [
+      151.3,
+      58.1
+     ],
+     [
+      79.0,
+      105.1
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.946838,
+     -0.616348,
+     0.32251,
+     0.495438,
+     132.0,
+     91.55
+    ],
+    "corners": [
+     [
+      88.8,
+      95.7
+     ],
+     [
+      153.2,
+      53.7
+     ],
+     [
+      175.2,
+      87.4
+     ],
+     [
+      110.8,
+      129.4
+     ]
+    ]
+   },
+   "gravity": -1,
+   "hintArrow": false,
+   "pushgutter": {
+    "matrix": [
+     -0.383438,
+     -0.352798,
+     2.01474,
+     -2.18985,
+     123.95,
+     134.15
+    ],
+    "alpha": 0.5,
+    "x": 123.95,
+    "y": 134.15,
+    "scaleX": 0.521,
+    "scaleY": 2.9757,
+    "rotation": -137.38,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      124.0,
+      134.2
+     ],
+     [
+      47.3,
+      63.6
+     ],
+     [
+      97.6,
+      8.8
+     ],
+     [
+      174.3,
+      79.4
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-10.svg",
+   "sand": "sand-10.svg",
+   "topface": "topface-10.svg",
+   "block": "block-10.png"
+  },
+  "11": {
+   "hoepback": {
+    "matrix": [
+     1.012619,
+     -0.659012,
+     0.563065,
+     0.855713,
+     100.0,
+     52.95
+    ],
+    "corners": [
+     [
+      46.4,
+      46.3
+     ],
+     [
+      115.3,
+      1.4
+     ],
+     [
+      153.6,
+      59.6
+     ],
+     [
+      84.7,
+      104.5
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.947159,
+     -0.616486,
+     0.329895,
+     0.506836,
+     135.0,
+     94.1
+    ],
+    "corners": [
+     [
+      91.6,
+      97.8
+     ],
+     [
+      156.0,
+      55.9
+     ],
+     [
+      178.4,
+      90.4
+     ],
+     [
+      114.0,
+      132.3
+     ]
+    ]
+   },
+   "gravity": -1,
+   "hintArrow": false,
+   "pushgutter": {
+    "matrix": [
+     -0.374969,
+     -0.363922,
+     2.11763,
+     -2.182129,
+     124.65,
+     135.85
+    ],
+    "alpha": 0.5,
+    "x": 124.65,
+    "y": 135.85,
+    "scaleX": 0.5225,
+    "scaleY": 3.0407,
+    "rotation": -135.86,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      124.7,
+      135.8
+     ],
+     [
+      49.7,
+      63.1
+     ],
+     [
+      102.6,
+      8.5
+     ],
+     [
+      177.6,
+      81.3
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-11.svg",
+   "sand": "sand-11.svg",
+   "topface": "topface-11.svg",
+   "block": "block-11.png"
+  },
+  "12": {
+   "hoepback": {
+    "matrix": [
+     0.964355,
+     -0.626266,
+     0.57431,
+     0.88443,
+     103.75,
+     52.4
+    ],
+    "corners": [
+     [
+      51.4,
+      43.6
+     ],
+     [
+      117.0,
+      1.0
+     ],
+     [
+      156.1,
+      61.2
+     ],
+     [
+      90.5,
+      103.8
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.949509,
+     -0.616623,
+     0.337296,
+     0.519348,
+     138.0,
+     96.55
+    ],
+    "corners": [
+     [
+      94.2,
+      99.9
+     ],
+     [
+      158.8,
+      57.9
+     ],
+     [
+      181.8,
+      93.2
+     ],
+     [
+      117.2,
+      135.2
+     ]
+    ]
+   },
+   "gravity": -1,
+   "hintArrow": false,
+   "pushgutter": {
+    "matrix": [
+     -0.365005,
+     -0.376068,
+     2.228607,
+     -2.163132,
+     125.1,
+     137.55
+    ],
+    "alpha": 0.5,
+    "x": 125.1,
+    "y": 137.55,
+    "scaleX": 0.5241,
+    "scaleY": 3.1058,
+    "rotation": -134.14,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      125.1,
+      137.6
+     ],
+     [
+      52.1,
+      62.3
+     ],
+     [
+      107.8,
+      8.3
+     ],
+     [
+      180.8,
+      83.5
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-12.svg",
+   "sand": "sand-12.svg",
+   "topface": "topface-12.svg",
+   "block": "block-12.png"
+  },
+  "13": {
+   "hoepback": {
+    "matrix": [
+     0.960587,
+     -0.625153,
+     0.53093,
+     0.821701,
+     109.55,
+     55.2
+    ],
+    "corners": [
+     [
+      58.8,
+      48.5
+     ],
+     [
+      124.2,
+      6.0
+     ],
+     [
+      160.3,
+      61.9
+     ],
+     [
+      94.9,
+      104.4
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.941238,
+     -0.624481,
+     0.321625,
+     0.484756,
+     143.2,
+     100.15
+    ],
+    "corners": [
+     [
+      100.3,
+      104.9
+     ],
+     [
+      164.3,
+      62.4
+     ],
+     [
+      186.1,
+      95.4
+     ],
+     [
+      122.1,
+      137.9
+     ]
+    ]
+   },
+   "gravity": -1,
+   "hintArrow": false,
+   "pushgutter": {
+    "matrix": [
+     -0.356583,
+     -0.387314,
+     2.336563,
+     -2.15152,
+     125.7,
+     139.2
+    ],
+    "alpha": 0.5,
+    "x": 125.7,
+    "y": 139.2,
+    "scaleX": 0.5265,
+    "scaleY": 3.1763,
+    "rotation": -132.63,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      125.7,
+      139.2
+     ],
+     [
+      54.4,
+      61.7
+     ],
+     [
+      112.8,
+      7.9
+     ],
+     [
+      184.1,
+      85.4
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-13.svg",
+   "sand": "sand-13.svg",
+   "topface": "topface-13.svg",
+   "block": "block-13.png"
+  },
+  "14": {
+   "hoepback": {
+    "matrix": [
+     0.958862,
+     -0.624039,
+     0.490433,
+     0.759018,
+     115.25,
+     57.9
+    ],
+    "corners": [
+     [
+      66.0,
+      53.3
+     ],
+     [
+      131.2,
+      10.9
+     ],
+     [
+      164.5,
+      62.5
+     ],
+     [
+      99.3,
+      104.9
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.934921,
+     -0.632294,
+     0.30542,
+     0.451584,
+     148.5,
+     103.65
+    ],
+    "corners": [
+     [
+      106.3,
+      109.8
+     ],
+     [
+      169.9,
+      66.8
+     ],
+     [
+      190.7,
+      97.5
+     ],
+     [
+      127.1,
+      140.5
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "pushgutter": {
+    "matrix": [
+     -0.356583,
+     -0.387314,
+     2.336563,
+     -2.15152,
+     125.7,
+     139.2
+    ],
+    "alpha": 0.5,
+    "x": 125.7,
+    "y": 139.2,
+    "scaleX": 0.5265,
+    "scaleY": 3.1763,
+    "rotation": -132.63,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      125.7,
+      139.2
+     ],
+     [
+      54.4,
+      61.7
+     ],
+     [
+      112.8,
+      7.9
+     ],
+     [
+      184.1,
+      85.4
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "gravity": 1,
+   "wall": "wall-14.svg",
+   "sand": "sand-14.svg",
+   "topface": "topface-14.svg",
+   "block": "block-14.png"
+  },
+  "15": {
+   "hoepback": {
+    "matrix": [
+     0.957108,
+     -0.62291,
+     0.449921,
+     0.696335,
+     121.1,
+     60.6
+    ],
+    "corners": [
+     [
+      73.3,
+      58.1
+     ],
+     [
+      138.3,
+      15.7
+     ],
+     [
+      168.9,
+      63.1
+     ],
+     [
+      103.9,
+      105.5
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.930038,
+     -0.6409,
+     0.289032,
+     0.419434,
+     153.65,
+     107.3
+    ],
+    "corners": [
+     [
+      112.2,
+      114.8
+     ],
+     [
+      175.4,
+      71.2
+     ],
+     [
+      195.1,
+      99.8
+     ],
+     [
+      131.9,
+      143.4
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.302628,
+     0.430511,
+     -2.597259,
+     1.825973,
+     139.3,
+     15.05
+    ],
+    "alpha": 0.5,
+    "x": 139.3,
+    "y": 15.05,
+    "scaleX": 0.5262,
+    "scaleY": 3.1749,
+    "rotation": 54.89,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      139.3,
+      15.1
+     ],
+     [
+      199.8,
+      101.2
+     ],
+     [
+      134.9,
+      146.8
+     ],
+     [
+      74.4,
+      60.7
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-15.svg",
+   "sand": "sand-15.svg",
+   "topface": "topface-15.svg",
+   "block": "block-15.png"
+  },
+  "16": {
+   "hoepback": {
+    "matrix": [
+     0.955383,
+     -0.62178,
+     0.409439,
+     0.633682,
+     126.9,
+     63.3
+    ],
+    "corners": [
+     [
+      80.5,
+      62.9
+     ],
+     [
+      145.5,
+      20.6
+     ],
+     [
+      173.3,
+      63.7
+     ],
+     [
+      108.3,
+      106.0
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     0.997925,
+     -0.700882,
+     0.38588,
+     0.549408,
+     158.15,
+     111.7
+    ],
+    "corners": [
+     [
+      111.1,
+      116.9
+     ],
+     [
+      179.0,
+      69.2
+     ],
+     [
+      205.2,
+      106.5
+     ],
+     [
+      137.3,
+      154.2
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.296768,
+     0.434448,
+     -2.610992,
+     1.783508,
+     145.25,
+     21.3
+    ],
+    "alpha": 0.5,
+    "x": 145.25,
+    "y": 21.3,
+    "scaleX": 0.5261,
+    "scaleY": 3.162,
+    "rotation": 55.66,
+    "skewY_minus_X": 0.0,
+    "corners": [
+     [
+      145.2,
+      21.3
+     ],
+     [
+      204.6,
+      108.2
+     ],
+     [
+      139.3,
+      152.8
+     ],
+     [
+      80.0,
+      65.9
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": "wall-16.svg",
+   "sand": "sand-16.svg",
+   "topface": "topface-16.svg",
+   "block": "block-16.png"
+  },
+  "17": {
+   "hoepback": {
+    "matrix": [
+     0.95369,
+     -0.620651,
+     0.368958,
+     0.570999,
+     132.65,
+     66.0
+    ],
+    "corners": [
+     [
+      87.7,
+      67.7
+     ],
+     [
+      152.5,
+      25.5
+     ],
+     [
+      177.6,
+      64.3
+     ],
+     [
+      112.8,
+      106.5
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.066361,
+     -0.763,
+     0.485397,
+     0.678391,
+     162.7,
+     116.1
+    ],
+    "corners": [
+     [
+      109.9,
+      119.0
+     ],
+     [
+      182.5,
+      67.1
+     ],
+     [
+      215.5,
+      113.2
+     ],
+     [
+      142.9,
+      165.1
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.291458,
+     0.438919,
+     -2.627686,
+     1.744766,
+     151.2,
+     27.4
+    ],
+    "alpha": 0.5,
+    "x": 151.2,
+    "y": 27.4,
+    "scaleX": 0.5269,
+    "scaleY": 3.1542,
+    "rotation": 56.41,
+    "skewY_minus_X": 0.0,
+    "corners": [
+     [
+      151.2,
+      27.4
+     ],
+     [
+      209.5,
+      115.2
+     ],
+     [
+      143.8,
+      158.8
+     ],
+     [
+      85.5,
+      71.0
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": null,
+   "sand": "sand-17.svg",
+   "topface": "topface-17.svg",
+   "block": "block-17.png"
+  },
+  "18": {
+   "hoepback": {
+    "matrix": [
+     0.95192,
+     -0.619553,
+     0.32843,
+     0.508316,
+     138.5,
+     68.75
+    ],
+    "corners": [
+     [
+      95.0,
+      72.5
+     ],
+     [
+      159.7,
+      30.4
+     ],
+     [
+      182.0,
+      65.0
+     ],
+     [
+      117.3,
+      107.1
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.133758,
+     -0.826355,
+     0.587219,
+     0.805649,
+     167.35,
+     120.45
+    ],
+    "corners": [
+     [
+      108.8,
+      121.2
+     ],
+     [
+      185.9,
+      65.0
+     ],
+     [
+      225.9,
+      119.7
+     ],
+     [
+      148.8,
+      175.9
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.286652,
+     0.443878,
+     -2.647079,
+     1.709488,
+     157.15,
+     33.4
+    ],
+    "alpha": 0.5,
+    "x": 157.15,
+    "y": 33.4,
+    "scaleX": 0.5284,
+    "scaleY": 3.1511,
+    "rotation": 57.15,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      157.2,
+      33.4
+     ],
+     [
+      214.5,
+      122.2
+     ],
+     [
+      148.3,
+      164.9
+     ],
+     [
+      91.0,
+      76.1
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": null,
+   "sand": "sand-18.svg",
+   "topface": "topface-18.svg",
+   "block": "block-18.png"
+  },
+  "19": {
+   "hoepback": {
+    "matrix": [
+     0.95224,
+     -0.618393,
+     0.289383,
+     0.445633,
+     144.25,
+     71.5
+    ],
+    "corners": [
+     [
+      102.0,
+      77.4
+     ],
+     [
+      166.8,
+      35.3
+     ],
+     [
+      186.5,
+      65.6
+     ],
+     [
+      121.7,
+      107.7
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.201889,
+     -0.892532,
+     0.692474,
+     0.932556,
+     171.75,
+     124.85
+    ],
+    "corners": [
+     [
+      107.3,
+      123.5
+     ],
+     [
+      189.1,
+      62.8
+     ],
+     [
+      236.2,
+      126.2
+     ],
+     [
+      154.4,
+      186.9
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.264664,
+     0.461121,
+     -2.707489,
+     1.553986,
+     164.9,
+     37.95
+    ],
+    "alpha": 0.5,
+    "x": 164.9,
+    "y": 37.95,
+    "scaleX": 0.5317,
+    "scaleY": 3.1218,
+    "rotation": 60.15,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      164.9,
+      38.0
+     ],
+     [
+      217.8,
+      130.2
+     ],
+     [
+      150.1,
+      169.0
+     ],
+     [
+      97.2,
+      76.8
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": null,
+   "sand": "sand-19.svg",
+   "topface": "topface-19.svg",
+   "block": "block-19.png"
+  },
+  "20": {
+   "hoepback": {
+    "matrix": [
+     0.950195,
+     -0.618408,
+     0.282715,
+     0.437561,
+     149.2,
+     75.9
+    ],
+    "corners": [
+     [
+      107.3,
+      82.0
+     ],
+     [
+      171.9,
+      40.0
+     ],
+     [
+      191.1,
+      69.8
+     ],
+     [
+      126.5,
+      111.8
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.199905,
+     -0.907455,
+     0.695343,
+     0.919479,
+     174.15,
+     129.4
+    ],
+    "corners": [
+     [
+      109.7,
+      129.0
+     ],
+     [
+      191.3,
+      67.3
+     ],
+     [
+      238.6,
+      129.8
+     ],
+     [
+      157.0,
+      191.5
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.243759,
+     0.477051,
+     -2.75798,
+     1.409287,
+     172.45,
+     42.4
+    ],
+    "alpha": 0.5,
+    "x": 172.45,
+    "y": 42.4,
+    "scaleX": 0.5357,
+    "scaleY": 3.0972,
+    "rotation": 62.93,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      172.4,
+      42.4
+     ],
+     [
+      221.2,
+      137.8
+     ],
+     [
+      152.3,
+      173.0
+     ],
+     [
+      103.5,
+      77.6
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": null,
+   "sand": "sand-20.svg",
+   "topface": "topface-20.svg",
+   "block": "block-20.png"
+  },
+  "21": {
+   "hoepback": {
+    "matrix": [
+     0.950195,
+     -0.618408,
+     0.277496,
+     0.429489,
+     154.1,
+     80.2
+    ],
+    "corners": [
+     [
+      112.4,
+      86.6
+     ],
+     [
+      177.0,
+      44.6
+     ],
+     [
+      195.8,
+      73.8
+     ],
+     [
+      131.2,
+      115.8
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.19957,
+     -0.92395,
+     0.699188,
+     0.907776,
+     176.6,
+     134.05
+    ],
+    "corners": [
+     [
+      112.0,
+      134.6
+     ],
+     [
+      193.6,
+      71.8
+     ],
+     [
+      241.2,
+      133.5
+     ],
+     [
+      159.6,
+      196.3
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.220337,
+     0.492798,
+     -2.805039,
+     1.254181,
+     180.3,
+     47.1
+    ],
+    "alpha": 0.5,
+    "x": 180.3,
+    "y": 47.1,
+    "scaleX": 0.5398,
+    "scaleY": 3.0727,
+    "rotation": 65.91,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      180.3,
+      47.1
+     ],
+     [
+      224.4,
+      145.7
+     ],
+     [
+      154.2,
+      177.0
+     ],
+     [
+      110.2,
+      78.5
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": null,
+   "sand": "sand-21.svg",
+   "topface": "topface-21.svg",
+   "block": "block-21.png"
+  },
+  "22": {
+   "hoepback": {
+    "matrix": [
+     0.950211,
+     -0.618408,
+     0.272278,
+     0.421417,
+     159.0,
+     84.6
+    ],
+    "corners": [
+     [
+      117.4,
+      91.3
+     ],
+     [
+      182.0,
+      49.2
+     ],
+     [
+      200.6,
+      77.9
+     ],
+     [
+      136.0,
+      120.0
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.199051,
+     -0.940552,
+     0.702942,
+     0.896133,
+     178.95,
+     138.65
+    ],
+    "corners": [
+     [
+      114.3,
+      140.2
+     ],
+     [
+      195.8,
+      76.2
+     ],
+     [
+      243.6,
+      137.1
+     ],
+     [
+      162.1,
+      201.1
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.197586,
+     0.506714,
+     -2.839935,
+     1.107422,
+     187.85,
+     51.8
+    ],
+    "alpha": 0.5,
+    "x": 187.85,
+    "y": 51.8,
+    "scaleX": 0.5439,
+    "scaleY": 3.0482,
+    "rotation": 68.7,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      187.8,
+      51.8
+     ],
+     [
+      227.4,
+      153.1
+     ],
+     [
+      156.4,
+      180.8
+     ],
+     [
+      116.9,
+      79.5
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": null,
+   "sand": "sand-22.svg",
+   "topface": "topface-22.svg",
+   "block": "block-22.png"
+  },
+  "23": {
+   "hoepback": {
+    "matrix": [
+     0.950211,
+     -0.618393,
+     0.267075,
+     0.413345,
+     163.9,
+     88.95
+    ],
+    "corners": [
+     [
+      122.5,
+      95.9
+     ],
+     [
+      187.1,
+      53.9
+     ],
+     [
+      205.3,
+      82.0
+     ],
+     [
+      140.7,
+      124.0
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.198257,
+     -0.957184,
+     0.706482,
+     0.88443,
+     181.45,
+     143.2
+    ],
+    "corners": [
+     [
+      116.7,
+      145.7
+     ],
+     [
+      198.2,
+      80.6
+     ],
+     [
+      246.2,
+      140.7
+     ],
+     [
+      164.7,
+      205.8
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.172318,
+     0.520172,
+     -2.870346,
+     0.950821,
+     195.55,
+     56.75
+    ],
+    "alpha": 0.5,
+    "x": 195.55,
+    "y": 56.75,
+    "scaleX": 0.548,
+    "scaleY": 3.0237,
+    "rotation": 71.67,
+    "skewY_minus_X": 0.0,
+    "corners": [
+     [
+      195.6,
+      56.8
+     ],
+     [
+      230.0,
+      160.8
+     ],
+     [
+      158.3,
+      184.6
+     ],
+     [
+      123.8,
+      80.5
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": null,
+   "sand": "sand-23.svg",
+   "topface": "topface-23.svg",
+   "block": "block-23.png"
+  },
+  "24": {
+   "hoepback": {
+    "matrix": [
+     0.950211,
+     -0.618393,
+     0.261841,
+     0.405258,
+     168.8,
+     93.4
+    ],
+    "corners": [
+     [
+      127.6,
+      100.6
+     ],
+     [
+      192.2,
+      58.6
+     ],
+     [
+      210.0,
+      86.2
+     ],
+     [
+      145.4,
+      128.2
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.197357,
+     -0.973938,
+     0.709915,
+     0.872757,
+     183.9,
+     147.85
+    ],
+    "corners": [
+     [
+      119.1,
+      151.3
+     ],
+     [
+      200.5,
+      85.1
+     ],
+     [
+      248.7,
+      144.4
+     ],
+     [
+      167.3,
+      210.6
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.147919,
+     0.531876,
+     -2.889587,
+     0.80368,
+     203.1,
+     61.75
+    ],
+    "alpha": 0.5,
+    "x": 203.1,
+    "y": 61.75,
+    "scaleX": 0.5521,
+    "scaleY": 2.9993,
+    "rotation": 74.46,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      203.1,
+      61.8
+     ],
+     [
+      232.7,
+      168.1
+     ],
+     [
+      160.4,
+      188.2
+     ],
+     [
+      130.9,
+      81.8
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": null,
+   "sand": "sand-24.svg",
+   "topface": "topface-24.svg",
+   "block": "block-24.png"
+  },
+  "25": {
+   "hoepback": {
+    "matrix": [
+     0.950226,
+     -0.618423,
+     0.256638,
+     0.397186,
+     173.8,
+     97.75
+    ],
+    "corners": [
+     [
+      132.8,
+      105.3
+     ],
+     [
+      197.4,
+      63.2
+     ],
+     [
+      214.8,
+      90.2
+     ],
+     [
+      150.2,
+      132.3
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.196182,
+     -0.990692,
+     0.713181,
+     0.861115,
+     186.3,
+     152.4
+    ],
+    "corners": [
+     [
+      121.4,
+      156.8
+     ],
+     [
+      202.7,
+      89.4
+     ],
+     [
+      251.2,
+      148.0
+     ],
+     [
+      169.9,
+      215.4
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.121033,
+     0.542831,
+     -2.903595,
+     0.647354,
+     210.85,
+     66.9
+    ],
+    "alpha": 0.5,
+    "x": 210.85,
+    "y": 66.9,
+    "scaleX": 0.5562,
+    "scaleY": 2.9749,
+    "rotation": 77.43,
+    "skewY_minus_X": 0.0,
+    "corners": [
+     [
+      210.8,
+      66.9
+     ],
+     [
+      235.1,
+      175.5
+     ],
+     [
+      162.5,
+      191.7
+     ],
+     [
+      138.3,
+      83.1
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": null,
+   "sand": "sand-25.svg",
+   "topface": "topface-25.svg",
+   "block": "block-25.png"
+  },
+  "26": {
+   "hoepback": {
+    "matrix": [
+     0.950195,
+     -0.618408,
+     0.252686,
+     0.38829,
+     178.7,
+     102.1
+    ],
+    "corners": [
+     [
+      137.8,
+      109.9
+     ],
+     [
+      202.4,
+      67.9
+     ],
+     [
+      219.6,
+      94.3
+     ],
+     [
+      155.0,
+      136.3
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.19484,
+     -1.007492,
+     0.716293,
+     0.849457,
+     188.7,
+     156.95
+    ],
+    "corners": [
+     [
+      123.7,
+      162.3
+     ],
+     [
+      205.0,
+      93.8
+     ],
+     [
+      253.7,
+      151.6
+     ],
+     [
+      172.4,
+      220.1
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.095215,
+     0.552109,
+     -2.907577,
+     0.501419,
+     218.35,
+     72.0
+    ],
+    "alpha": 0.5,
+    "x": 218.35,
+    "y": 72.0,
+    "scaleX": 0.5603,
+    "scaleY": 2.9505,
+    "rotation": 80.22,
+    "skewY_minus_X": 0.0,
+    "corners": [
+     [
+      218.3,
+      72.0
+     ],
+     [
+      237.4,
+      182.4
+     ],
+     [
+      164.7,
+      195.0
+     ],
+     [
+      145.7,
+      84.5
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": null,
+   "sand": "sand-26.svg",
+   "topface": "topface-26.svg",
+   "block": "block-26.png"
+  },
+  "27": {
+   "hoepback": {
+    "matrix": [
+     0.95224,
+     -0.618393,
+     0.247452,
+     0.381042,
+     183.55,
+     106.5
+    ],
+    "corners": [
+     [
+      142.8,
+      114.6
+     ],
+     [
+      207.5,
+      72.5
+     ],
+     [
+      224.3,
+      98.4
+     ],
+     [
+      159.6,
+      140.5
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.193131,
+     -1.028488,
+     0.722153,
+     0.837708,
+     191.25,
+     161.55
+    ],
+    "corners": [
+     [
+      126.1,
+      168.0
+     ],
+     [
+      207.3,
+      98.1
+     ],
+     [
+      256.4,
+      155.1
+     ],
+     [
+      175.2,
+      225.0
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "pushgutter": {
+    "matrix": [
+     0.068695,
+     0.560394,
+     -2.905533,
+     0.356369,
+     225.8,
+     77.4
+    ],
+    "alpha": 0.5,
+    "x": 225.8,
+    "y": 77.4,
+    "scaleX": 0.5646,
+    "scaleY": 2.9273,
+    "rotation": 83.01,
+    "skewY_minus_X": -0.0,
+    "corners": [
+     [
+      225.8,
+      77.4
+     ],
+     [
+      239.5,
+      189.5
+     ],
+     [
+      166.9,
+      198.4
+     ],
+     [
+      153.2,
+      86.3
+     ]
+    ],
+    "params": {
+     "plateauDiameter": 20.0,
+     "shape": "U-shaped",
+     "strength": 3.0,
+     "pushStrength": 3.0,
+     "arrowStyle": "Animated",
+     "graphicsStyle": "Block with shading",
+     "tint": 13434675.0
+    }
+   },
+   "wall": null,
+   "sand": "sand-27.svg",
+   "topface": "topface-27.svg",
+   "block": "block-27.png"
+  },
+  "28": {
+   "hoepback": {
+    "matrix": [
+     0.950226,
+     -0.618393,
+     0.220657,
+     0.341537,
+     185.35,
+     110.2
+    ],
+    "corners": [
+     [
+      145.5,
+      119.6
+     ],
+     [
+      210.2,
+      77.6
+     ],
+     [
+      225.2,
+      100.8
+     ],
+     [
+      160.5,
+      142.8
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.193131,
+     -1.028488,
+     0.722153,
+     0.837708,
+     191.25,
+     161.55
+    ],
+    "corners": [
+     [
+      126.1,
+      168.0
+     ],
+     [
+      207.3,
+      98.1
+     ],
+     [
+      256.4,
+      155.1
+     ],
+     [
+      175.2,
+      225.0
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "sandpatch": {
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     185.25,
+     101.9
+    ],
+    "params": {
+     "strengthStickyness": 3,
+     "strengthRoughness": 0,
+     "directionDependency": "None",
+     "dirDepAngle": 0
+    }
+   },
+   "hole": {
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     135.95,
+     94.15
+    ],
+    "centre": [
+     185.9,
+     144.2
+    ]
+   },
+   "wall": null,
+   "sand": "sand-28.svg",
+   "topface": "topface-28.svg",
+   "block": "block-28.png"
+  },
+  "29": {
+   "hoepback": {
+    "matrix": [
+     0.95224,
+     -0.618393,
+     0.196121,
+     0.302002,
+     187.2,
+     113.9
+    ],
+    "corners": [
+     [
+      148.2,
+      124.7
+     ],
+     [
+      212.9,
+      82.6
+     ],
+     [
+      226.2,
+      103.1
+     ],
+     [
+      161.5,
+      145.2
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.193131,
+     -1.028488,
+     0.722153,
+     0.837708,
+     191.25,
+     161.55
+    ],
+    "corners": [
+     [
+      126.1,
+      168.0
+     ],
+     [
+      207.3,
+      98.1
+     ],
+     [
+      256.4,
+      155.1
+     ],
+     [
+      175.2,
+      225.0
+     ]
+    ]
+   },
+   "hintArrow": false,
+   "gravity": 1,
+   "sandpatch": {
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     185.25,
+     101.9
+    ],
+    "params": {
+     "strengthStickyness": 3,
+     "strengthRoughness": 0,
+     "directionDependency": "None",
+     "dirDepAngle": 0
+    }
+   },
+   "hole": {
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     135.95,
+     94.15
+    ],
+    "centre": [
+     185.9,
+     144.2
+    ]
+   },
+   "wall": null,
+   "sand": "sand-29.svg",
+   "topface": "topface-29.svg",
+   "block": "block-29.png"
+  },
+  "30": {
+   "hoepback": {
+    "matrix": [
+     0.95224,
+     -0.618393,
+     0.196121,
+     0.302002,
+     187.2,
+     113.9
+    ],
+    "corners": [
+     [
+      148.2,
+      124.7
+     ],
+     [
+      212.9,
+      82.6
+     ],
+     [
+      226.2,
+      103.1
+     ],
+     [
+      161.5,
+      145.2
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.193131,
+     -1.028488,
+     0.722153,
+     0.837708,
+     191.25,
+     161.55
+    ],
+    "corners": [
+     [
+      126.1,
+      168.0
+     ],
+     [
+      207.3,
+      98.1
+     ],
+     [
+      256.4,
+      155.1
+     ],
+     [
+      175.2,
+      225.0
+     ]
+    ]
+   },
+   "hintArrow": true,
+   "gravity": 1,
+   "sandpatch": {
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     185.25,
+     101.9
+    ],
+    "params": {
+     "strengthStickyness": 3,
+     "strengthRoughness": 0,
+     "directionDependency": "None",
+     "dirDepAngle": 0
+    }
+   },
+   "hole": {
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     135.95,
+     94.15
+    ],
+    "centre": [
+     185.9,
+     144.2
+    ]
+   },
+   "wall": "wall-30.svg",
+   "sand": "sand-30.svg",
+   "topface": "topface-30.svg",
+   "block": "block-30.png"
+  },
+  "31": {
+   "hoepback": {
+    "matrix": [
+     0.95224,
+     -0.618393,
+     0.196121,
+     0.302002,
+     187.2,
+     113.9
+    ],
+    "corners": [
+     [
+      148.2,
+      124.7
+     ],
+     [
+      212.9,
+      82.6
+     ],
+     [
+      226.2,
+      103.1
+     ],
+     [
+      161.5,
+      145.2
+     ]
+    ]
+   },
+   "hoep2": {
+    "matrix": [
+     1.193131,
+     -1.028488,
+     0.722153,
+     0.837708,
+     191.25,
+     161.55
+    ],
+    "corners": [
+     [
+      126.1,
+      168.0
+     ],
+     [
+      207.3,
+      98.1
+     ],
+     [
+      256.4,
+      155.1
+     ],
+     [
+      175.2,
+      225.0
+     ]
+    ]
+   },
+   "hintArrow": true,
+   "sandpatch": {
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     185.25,
+     101.9
+    ],
+    "params": {
+     "strengthStickyness": 3,
+     "strengthRoughness": 0,
+     "directionDependency": "None",
+     "dirDepAngle": 0
+    }
+   },
+   "hole": {
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     135.95,
+     94.15
+    ],
+    "centre": [
+     185.9,
+     144.2
+    ]
+   },
+   "gravity": 0,
+   "wall": "wall-31.svg",
+   "sand": "sand-31.svg",
+   "topface": "topface-31.svg",
+   "block": "block-30.png"
+  }
+ }
+}

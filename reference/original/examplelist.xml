@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+- Playdata bestaat uit een onbeperkt aantal examples
+- Iedere example bevat 7 samples en 7 tracks. 
+- De tracks duiden het volume van de bijbehorende sample.
+- De lengte van een track is variabel.
+- Een track kan optioneel een b track bevatten (voor interactief geluid)
+- De aanduiding bank zal nog worden gebruikt voor het slim inladen van samples.
+
+-->
+<examples>
+<!--<example url="basics.swf" sourceurl="basics.zip" frame="standard" title="Basic Building Blocks" src="basics_icon.jpg" 	description="This example shows some of the basic building blocks of powercursor. Holes, Hills, Whirls, Pushgutters, etc.">snoutje2</example>-->
+<example url="fan.swf" sourceurl="fan.zip" src="fan.gif" frame="standard" title="Don't touch that Fan!" description="What do you expect will happen when you move your cursor on the fan? This is a very basic example visual force feedback. Click the icons above for other examples." >fan</example>
+	<example url="pocket.swf"  sourceurl="pocket.zip" src="pocket_icon.jpg" frame="pocket" title="Pocket + Tunnel" description="Try and move your cursor through the tunnel, or in the pocket. Using dynamic forcefields to create different levels." >snoutje2</example>
+ 
+  <example url="menu.swf"  sourceurl="menu.zip" src="menu.jpg" frame="standard" title="Menu with slick-disabled buttons" description="The disabled items in the drop-down menus are made slick, so that the cursor slides over them quickly.  An example of assisted navigation." >Menu</example>
+<example url="ballgame.swf" sourceurl="ballgame.zip" title="Ball Game" src="ballgame.gif" frame="ball" description="Virtual version of the well known ball game requiring patience and coordination. Can you get the two balls in the two holes?" >ballgame</example>
+
+<example url="cursorbug.swf" src="cursorbug.jpg" sourceurl="cursorbug.zip" frame="standard" title="Cursor Bug" description="You are cursor bug flying in the room. Try to land it on his Nose! Created by Holland Interactive">Cursor Bug</example>
+	<example url="delete_button.swf"  sourceurl="delete_button.zip" src="delete_button.jpg" frame="standard" title="Confirm Button" description="After clicking the Delete button – which initiates an unrecommended action – the system asks for a confirmation, whereby the cursor is pushed towards the 'no' button which cancels the action. An example of mixed initiative." >delete_button</example>
+	<example url="windowbuttons.swf" src="windowbuttons.gif" sourceurl="windowbuttons.zip" frame="standard" title="Windowbuttons" description="Those small buttons in the corner of windows can be difficult to click. Window A has buttons augmented with a force target, which drags the cursor to the center and makes them easier to click than the regular ones in window B. Scientific research points out that the usability of the augmented buttons is significantly higher. Do you notice the difference?">windowbutton</example>
+
+	<example url="block.swf" sourceurl="block.zip" title="Block" frame="standard" src="block_icon.jpg" 	description="The wooden cube can be flipped by pushing the cursor on the right side. This is a more complex example of how visual force feedback can be used to simulate properties of physical objects.">Blokje</example>
+<example url="maze.swf" sourceurl="maze.zip" src="maze.gif" frame="standard" title="Maze" description="This simple maze example shows how to use a wall object." >maze</example>
+	<example url="switch.swf"  sourceurl="switch.zip" src="switch.gif" frame="standard" title="Sweet Switch" description="Try and move your cursor through the tunnel, or in the pocket. Using dynamic forcefields to create different levels." >snoutje2</example>
+
+	 
+ 	</examples>

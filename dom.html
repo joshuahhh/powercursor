@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PowerCursor — DOM API prototype</title>
+    <link rel="icon" href="/lib/cursor/Arrow.svg" />
+  </head>
+  <body>
+    <div class="banner">
+      A prototype of a DOM-first PowerCursor API, part of an unsanctioned, vibe-coded port of
+      <a href="https://www.powercursor.com/" target="_blank" rel="noreferrer">PowerCursor</a> by Koert van Mensvoort.
+      <a href="https://github.com/joshuahhh/powercursor" target="_blank" rel="noreferrer">Source on GitHub</a>.
+    </div>
+    <header>
+      <div>
+        <h1>A page you can touch</h1>
+        <p>Ordinary HTML with force fields attached to its elements. <a href="./">← the original demos</a></p>
+      </div>
+      <div class="take">
+        <label><input type="checkbox" id="free" /> Flash-style (no pointer lock)</label>
+        <label><input type="checkbox" id="scrollwith" /> Cursor scrolls with the page</label>
+      </div>
+    </header>
+
+    <!-- Top-right corner, so you can throw the cursor at it. -->
+    <button class="esc-corner" id="escbtn" hidden title="Give the cursor back"><span>Esc</span></button>
+
+    <main>
+      <div class="lock-hint" id="lockhint" hidden>
+        <div class="lock-card">
+          <img src="/lib/cursor/Finger.svg" alt="" />
+          <strong>Click to take the cursor</strong>
+          <span>The page will capture your mouse so its elements can push it around.<br />Press <kbd>Esc</kbd> to let go.</span>
+        </div>
+      </div>
+      <section>
+        <h2>Textures</h2>
+        <div class="swatches">
+          <div class="swatch sand">sand</div>
+          <div class="swatch ice">ice</div>
+          <div class="round hill">hill</div>
+          <div class="round hole">hole</div>
+          <div class="round deep">deep hole</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Walls</h2>
+        <p>Plain divs with <code>wall()</code>. Unlike the original, fast moves can't jump them.</p>
+        <div class="maze" id="maze"></div>
+      </section>
+
+      <section>
+        <h2>Tubes</h2>
+        <p>Rooms joined by tubes: each mouth is a <code>hole()</code> with a <code>warp</code> hook that sends you out of the other end. Come in at the top and find the ★.</p>
+        <div class="tubes" id="tubes"></div>
+        <output id="tubesout">Find the ★.</output>
+      </section>
+
+      <section>
+        <h2>Menu</h2>
+        <p>Unavailable items are <code>slick()</code>: you slide over them to the ones you can pick.</p>
+        <div class="menu" id="menu">
+          <div class="item">New</div>
+          <div class="item">Open…</div>
+          <div class="item disabled">Save</div>
+          <div class="item disabled">Save as…</div>
+          <div class="item">Print…</div>
+          <div class="item disabled">Share</div>
+          <div class="item">Close</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Are you sure?</h2>
+        <p>When the dialog opens, your cursor is steered to Cancel, and the whole dialog keeps leaning that way. Delete is sandy. You can still overrule it (custom fields).</p>
+        <button class="danger" id="delete">Delete everything</button>
+        <dialog id="confirm">
+          <p>Really delete everything?</p>
+          <div class="actions"><button id="yes" class="danger">Delete</button><button id="no">Cancel</button></div>
+        </dialog>
+        <output id="deleteout"></output>
+      </section>
+
+      <section>
+        <h2>Word snapping</h2>
+        <p>Drag to select. With <code>wordSnap()</code>, letters are ice and the gaps between words are sand, so selections land on whole words.</p>
+        <blockquote class="snapquote">
+          <p class="snaptext" id="snaptext">
+            Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had
+            peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,”
+            thought Alice “without pictures or conversations?”
+          </p>
+          <cite>Lewis Carroll, <i>Alice’s Adventures in Wonderland</i> (1865)</cite>
+        </blockquote>
+        <label class="small"><input type="checkbox" id="snapdrag" /> Only while dragging</label>
+        <output id="snapout"></output>
+      </section>
+
+      <section>
+        <h2>Small targets</h2>
+        <p>Each button has a <code>target()</code>: it pulls you to its centre, then lets go.</p>
+        <div class="window">
+          <div class="titlebar">
+            <span>Untitled.txt</span>
+            <span class="winbtns"><button class="winbtn" title="Minimise">–</button><button class="winbtn" title="Maximise">+</button><button class="winbtn" title="Close">×</button></span>
+          </div>
+          <div class="toolbar">
+            <button class="tool" title="Bold"><b>B</b></button><button class="tool" title="Italic"><i>I</i></button><button class="tool" title="Underline"><u>U</u></button>
+            <span class="sep"></span>
+            <button class="tool" title="Left">⇤</button><button class="tool" title="Centre">⇔</button><button class="tool" title="Right">⇥</button>
+          </div>
+          <div class="body" id="log">Click something.</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Form</h2>
+        <p>Mixed initiative: while the form is incomplete, Sign up is a <code>hill</code>; click it anyway and you're steered to the field that still needs filling in. Once it's complete, Sign up becomes a <code>target</code>.</p>
+        <form id="form" class="form">
+          <label>Name <input name="name" placeholder="Ada" required /></label>
+          <label>Email <input name="email" type="email" placeholder="ada@example.org" required /></label>
+          <label class="check"><input type="checkbox" name="news" /> Send me the newsletter</label>
+          <button type="submit" class="primary">Sign up</button>
+          <output id="formout"></output>
+        </form>
+      </section>
+
+      <section>
+        <h2>Rings</h2>
+        <p>Circles made into <code>rails()</code>: get close to one and you're on it. Push roughly along it to ride round; push straight across to hop off.</p>
+        <svg class="rings" id="rings" viewBox="0 0 340 250"></svg>
+      </section>
+
+      <section class="full">
+        <h2>Dataflow</h2>
+        <p>
+          A node editor (just the UI). Drag nodes by their title bars: they stick to the grid, and flick from point to point. Wires are rails: get close to one and you snap on,
+          then any push roughly along it carries you along its curve. Push straight across to come off.
+        </p>
+        <div class="flow" id="flow"></div>
+      </section>
+    </main>
+    <script type="module" src="/src/dom-demo/main.ts"></script>
+  </body>
+</html>
